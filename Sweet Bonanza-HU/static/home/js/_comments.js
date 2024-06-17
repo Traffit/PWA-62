@@ -11,7 +11,7 @@ const reviews_data = [
     img: "../../media/photos/comments/comment2.png",
     name: "Chiara De Luca",
     comment:
-      "That's fantastic to hear! It sounds like you're having an incredible time at the casino. Winning $13,000 and then $57,000 on top of that with just a minimum deposit is absolutely thrilling. It's great to know that you're enjoying the wide selection of games, awesome bonuses, and addictive slots at "Sweet Bonanza." Thank you for recommending it to everyone – may your winning streak continue! 🎉💰 🚀🚀🚀",
+      "That's fantastic to hear! It sounds like you're having an incredible time at the casino. Winning $13,000 and then $57,000 on top of that with just a minimum deposit is absolutely thrilling. It's great to know that you're enjoying the wide selection of games, awesome bonuses, and addictive slots at Sweet Bonanza. Thank you for recommending it to everyone – may your winning streak continue! 🎉💰 🚀🚀🚀",
   },
   {
     img: "../../media/photos/comments/comment4.png",
