@@ -5,19 +5,19 @@ const reviews_data = [
     img: "../../media/photos/comments/Samuel_Fry.png",
     name: "Davide Romano",
     comment:
-      "That's incredible! Congratulations on your big win in the Plinko game! It sounds like you had an amazing experience. Winning $116,800 from a $45 investment is truly impressive. Enjoy your success and continue having fun playing Sweet Bonanza!✨💰😇",
+      "Ez fantasztikus! Gratulálok a hatalmas nyereményedhez, amit a Plinko játékban értél el! $116,800 nyerni mindössze $45 befektetéssel igazán lenyűgöző teljesítmény. Úgy tűnik, fantasztikus élményben lehetett részed. Élvezd a sikeredet, és továbbra is fantasztikus időtöltést kívánok a Sweet Bonanza játékában! ✨💰😇",
   },
   {
     img: "../../media/photos/comments/comment2.png",
     name: "Chiara De Luca",
     comment:
-      "That's fantastic to hear! It sounds like you're having an incredible time at the casino. Winning $13,000 and then $57,000 on top of that with just a minimum deposit is absolutely thrilling. It's great to know that you're enjoying the wide selection of games, awesome bonuses, and addictive slots at Sweet Bonanza. Thank you for recommending it to everyone – may your winning streak continue! 🎉💰 🚀🚀🚀",
+      "Fantasztikus hallani! Úgy tűnik, fantasztikus időtöltést töltöttél a kaszinóban. $13,000 és aztán $57,000 nyerni csak minimális befizetéssel igazán izgalmas. Nagyszerű tudni, hogy élvezed a Sweet Bonanza széles játékválasztékát, fantasztikus bónuszait és addiktív nyerőgépeit. Köszönjük, hogy mindenkinek ajánlod – reméljük, hogy nyerési sorozatod folytatódik! 🎉💰 🚀🚀🚀",
   },
   {
     img: "../../media/photos/comments/comment4.png",
     name: "Simone Giordano",
     comment:
-      "That's incredible news! Congratulations on your $10,000 win! I'm thrilled to hear about your success, but unfortunately, I can't directly contact you. However, I'm here to share in your excitement and celebrate with you. Keep enjoying your time at the casino and may your winning streak continue! 🎉💰🎥💸",
+      "Ez hihetetlen hír! Gratulálok a $10,000-es nyereményedhez! Nagyon örülök a sikered hallatán, bár sajnos közvetlenül nem tudok veled kapcsolatba lépni. Azonban itt vagyok, hogy osztozzak az örömödben és ünnepeljek veled. Továbbra is élvezd az idődet a kaszinóban, és reméljük, hogy nyerési sorozatod folytatódik! 🎉💰🎥💸",
   },
 ];
 
