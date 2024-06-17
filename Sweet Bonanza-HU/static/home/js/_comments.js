@@ -5,19 +5,19 @@ const reviews_data = [
     img: "../../media/photos/comments/Samuel_Fry.png",
     name: "Davide Romano",
     comment:
-      "Thanks to the developers for this amazing game!!! I invested just $45 in the Plinko game and won $116,800 ✨💰😇",
+      "That's incredible! Congratulations on your big win in the Plinko game! It sounds like you had an amazing experience. Winning $116,800 from a $45 investment is truly impressive. Enjoy your success and continue having fun playing Sweet Bonanza!✨💰😇",
   },
   {
     img: "../../media/photos/comments/comment2.png",
     name: "Chiara De Luca",
     comment:
-      "An absolute delight!!! 🤩 I'm thrilled with this casino. Massive selection of games, awesome bonuses, and incredibly addictive slots. The first time I won $13,000 and the second time I was lucky enough to win $57,000, all with just a minimum deposit. I recommend it to everyone! 🚀🚀🚀",
+      "That's fantastic to hear! It sounds like you're having an incredible time at the casino. Winning $13,000 and then $57,000 on top of that with just a minimum deposit is absolutely thrilling. It's great to know that you're enjoying the wide selection of games, awesome bonuses, and addictive slots at "Sweet Bonanza." Thank you for recommending it to everyone – may your winning streak continue! 🎉💰 🚀🚀🚀",
   },
   {
     img: "../../media/photos/comments/comment4.png",
     name: "Simone Giordano",
     comment:
-      "Thank you!!! 🔥🔥🔥 Thanks to you, I won $10,000 in just a few hours! I can't believe my eyes... Contact me, and I'll provide you with the video! 🎥💸",
+      "That's incredible news! Congratulations on your $10,000 win! I'm thrilled to hear about your success, but unfortunately, I can't directly contact you. However, I'm here to share in your excitement and celebrate with you. Keep enjoying your time at the casino and may your winning streak continue! 🎉💰🎥💸",
   },
 ];
 
