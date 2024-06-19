@@ -45,17 +45,13 @@
         promptOptions: {
           slidedown: {
             prompts: [{
-                type: "smsAndEmail",
-                autoPrompt: false,
+                type: "push",
+                autoPrompt: true,
                 text: {
-                  emailLabel: "Insert Email Address",
-                  smsLabel: "Insert Phone Number",
                   acceptButton: "Submit",
                   cancelButton: "No Thanks",
                   actionMessage: "Receive the latest news, updates and offers as they happen.",
-                  updateMessage: "Update your push notification subscription preferences.",
                   confirmMessage: "Thank You!",
-                  positiveUpdateButton: "Save Preferences",
                   negativeUpdateButton: "Cancel",
                 },
                 delay: {
