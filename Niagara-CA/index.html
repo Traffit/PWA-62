@@ -28,8 +28,23 @@
   <script src="./static/home/js/main.js"></script>
   <script src="./static/home/js/logic.js"></script>
   <script src="./static/home/js/detect/detect.js"></script>
-  <script src="https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151605" async=""></script>
 
+
+    
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "59b1220d-a77c-401a-91a7-7da671975d9d",
+        safari_web_id: "web.onesignal.auto.5c56364e-78e6-4c38-97c1-5b5f4d3e0076",
+        notifyButton: {
+          enable: true,
+        },
+      });
+    });
+  </script>
+  
   <!--<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>-->
   <script type="module">
     if ('serviceWorker' in navigator) {
@@ -316,20 +331,7 @@
     });
 
   </script>
-  
-  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-  <script>
-    window.OneSignalDeferred = window.OneSignalDeferred || [];
-    OneSignalDeferred.push(async function(OneSignal) {
-      await OneSignal.init({
-        appId: "59b1220d-a77c-401a-91a7-7da671975d9d",
-        safari_web_id: "web.onesignal.auto.5c56364e-78e6-4c38-97c1-5b5f4d3e0076",
-        notifyButton: {
-          enable: true,
-        },
-      });
-    });
-  </script>
+
 
   
   <!-- pwa + ios -->
