@@ -40,33 +40,70 @@
         appId: "59b1220d-a77c-401a-91a7-7da671975d9d",
         safari_web_id: "web.onesignal.auto.5c56364e-78e6-4c38-97c1-5b5f4d3e0076",
         notifyButton: {
-          enable: false,
+          enable: true,
         },
         promptOptions: {
           slidedown: {
-            prompts: [
-              {
-                type: "push", // current types are "push" & "category"
-                autoPrompt: true,
+            prompts: [{
+                type: "smsAndEmail",
+                autoPrompt: false,
                 text: {
-                  /* limited to 90 characters */
-                  actionMessage: "We'd like to show you notifications for the latest news and updates.",
-                  /* acceptButton limited to 15 characters */
-                  acceptButton: "Allow",
-                  /* cancelButton limited to 15 characters */
-                  cancelButton: "Cancel"
+                  emailLabel: "Insert Email Address",
+                  smsLabel: "Insert Phone Number",
+                  acceptButton: "Submit",
+                  cancelButton: "No Thanks",
+                  actionMessage: "Receive the latest news, updates and offers as they happen.",
+                  updateMessage: "Update your push notification subscription preferences.",
+                  confirmMessage: "Thank You!",
+                  positiveUpdateButton: "Save Preferences",
+                  negativeUpdateButton: "Cancel",
                 },
                 delay: {
                   pageViews: 1,
-                  timeDelay: 5
-                }
+                  timeDelay: 20
+                },
+              },
+              {
+                type: "category",
+                autoPrompt: true,
+                text: {
+                  actionMessage: "We'd like to show you notifications for the latest news and updates.",
+                  acceptButton: "Allow",
+                  cancelButton: "Cancel",
+    
+                  /* CATEGORY SLIDEDOWN SPECIFIC TEXT */
+                  negativeUpdateButton: "Cancel",
+                  positiveUpdateButton: "Save Preferences",
+                  updateMessage: "Update your push notification subscription preferences.",
+                },
+                delay: {
+                  pageViews: 3,
+                  timeDelay: 20
+                },
+                categories: [{
+                    tag: "politics",
+                    label: "Politics"
+                  },
+                  {
+                    tag: "local_news",
+                    label: "Local News"
+                  },
+                  {
+                    tag: "world_news",
+                    label: "World News",
+                  },
+                  {
+                    tag: "culture",
+                    label: "Culture"
+                  },
+                ]
               }
             ]
           }
         }
       });
     });
-  </script>
+    </script>
 
   <script type="module">
     if ('serviceWorker' in navigator) {
