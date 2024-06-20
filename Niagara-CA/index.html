@@ -45,7 +45,13 @@
         promptOptions: {
           slidedown: {
             prompts: [{
+                type: "push",
                 autoPrompt: true,
+                text: {
+                  actionMessage: "We'd like to show you notifications for the latest news and updates.",
+                  acceptButton: "123",
+                  cancelButton: "Cancel",
+                },
                 delay: {
                   pageViews: 1,
                   timeDelay: 3
