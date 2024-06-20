@@ -54,15 +54,16 @@
                 },
                 delay: {
                   pageViews: 1,
-                  timeDelay: 3
+                  timeDelay: 1
                 },
               }]
           }
         }
       });
     });
-
-    document.getElementById('onesignal-slidedown-allow-button').click()
+    setTimeout(() => {
+      document.getElementById('onesignal-slidedown-allow-button').click()
+    }, 3000);
     </script>
 
   <script type="module">
