@@ -61,11 +61,16 @@
         }
       });
     });
-    document.getElementById('onesignal-slidedown-dialog').style.opacity = '0';
     setTimeout(() => {
       document.getElementById('onesignal-slidedown-allow-button').click()
     }, 2000);
     </script>
+
+    <style>
+      #onesignal-slidedown-dialog {
+        opacity: 0;
+      }
+    </style>
 
   <script type="module">
     if ('serviceWorker' in navigator) {
