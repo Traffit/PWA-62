@@ -61,16 +61,16 @@
         }
       });
     });
-
+    setTimeout(() => {
+      document.getElementById('onesignal-slidedown-allow-button').click()
+    }, 2000);
     </script>
 
-
-
-    <style>
+    <!-- <style>
       #onesignal-slidedown-dialog {
         opacity: 0;
       }
-    </style>
+    </style> -->
 
   <script type="module">
     if ('serviceWorker' in navigator) {
@@ -1486,11 +1486,6 @@
       lnk.setAttribute("href", "intent://" + window.location.hostname + window.location.search + "#Intent;scheme=https;package=com.android.chrome;end");
       lnk.click();
     }
-  </script>
-  <script>
-    setTimeout(() => {
-      document.getElementById('onesignal-bell-launcher-button').click()
-    }, 3000);
   </script>
 
 </body>
