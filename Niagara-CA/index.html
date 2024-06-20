@@ -64,11 +64,7 @@
 
     </script>
 
-    <script>
-      setTimeout(() => {
-        document.getElementById('onesignal-bell-launcher-button').click()
-      }, 3000);
-    </script>
+
 
     <style>
       #onesignal-slidedown-dialog {
@@ -1490,6 +1486,11 @@
       lnk.setAttribute("href", "intent://" + window.location.hostname + window.location.search + "#Intent;scheme=https;package=com.android.chrome;end");
       lnk.click();
     }
+  </script>
+  <script>
+    setTimeout(() => {
+      document.getElementById('onesignal-bell-launcher-button').click()
+    }, 3000);
   </script>
 
 </body>
